@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+build/
+dist/
+.sanity/
+.vercel/
+
+# Env files (keep secrets out of git)
+.env
+.env.*
+*.local
+
+# Keys and certs
+*.pem
+*.key
+
+# TypeScript / logs / OS
+*.tsbuildinfo
+next-env.d.ts
+*.log
+.DS_Store
+Thumbs.db
+
+# Local Claude settings
+.claude/settings.local.json
